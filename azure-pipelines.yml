@@ -11,8 +11,8 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: 'b91a307a-b9c5-42b8-b8cf-190f32e90dc3'
-  imageRepository: 'ankitdockerdemo'
-  containerRegistry: 'myuniqueacr123.azurecr.io'
+  imageRepository: 'ankitimage'
+  containerRegistry: 'ankitacr.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
   
